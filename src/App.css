@@ -1,0 +1,143 @@
+*{
+  margin:0; 
+  padding: 0;
+}
+
+
+/* Navbar light*/
+
+nav{
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+nav .react-icon{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav .react-icon h1{
+  font-size: 50px;
+  color:rgb(0, 204, 255)  
+}
+
+nav .fa-react {
+  font-size: 50px;
+  color:rgb(0, 204, 255)
+}
+
+nav button{
+  margin-right: 50px;
+  border: none;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .fa-toggle-on, .fa-toggle-off{
+  font-size:40px;
+}
+
+nav button p{
+  margin: 10px;
+  font-size: 20px;
+}
+
+/* Navbar dark*/
+
+.dark{
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(59, 59, 59);
+}
+
+.dark .react-icon{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dark .react-icon h1{
+  font-size: 50px;
+  color:rgb(0, 204, 255)  
+}
+
+.dark .fa-react {
+  font-size: 50px;
+  color:rgb(0, 204, 255)
+}
+
+.dark button{
+  margin-right: 50px;
+  border: none;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dark .fa-toggle-on, .fa-toggle-off{
+  font-size:40px;
+}
+
+.dark button p{
+  margin: 10px;
+  font-size: 20px;
+}
+
+/* Main light */
+
+.container{
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h1{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-size: 70px;
+}
+
+.container ul li{
+  margin-left: 80px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+/* Main dark */
+
+.container-dark {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(83, 82, 82);
+}
+
+.container-dark h1{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-size: 70px;
+  color: rgb(0, 204, 255) 
+}
+
+
+.container-dark ul li{
+  margin-left: 80px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  color: white
+}
+
+
